@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class E2_2 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        System.out.print("Enter the raduis and length of a cylinder:");
+        double r=input.nextDouble();
+        double l=input.nextDouble();
+        double a= r*r*Math.PI;
+        double v=a*l;
+        System.out.println("The area is "+ a);
+        System.out.println("The volume is "+v);
